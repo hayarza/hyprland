@@ -51,5 +51,6 @@ Idle and lock are **not** configured here anymore. `hypridle` and `hyprlock`
 aren't part of Quattro; both are Quickshell plugins now, set via `idle.screensaver`
 and `idle.lock` in `~/.config/omarchy/shell.json`.
 
-Pre-Quattro `.conf` originals are archived in `backups/` (gitignored) and remain
-in git history before `4d6e878`.
+Pre-Quattro `.conf` originals are archived outside this repo, in
+`~/.local/state/config-backups/hypr/` — kept out of the working tree so
+`git clean` can't take them. They also remain in git history before `4d6e878`.

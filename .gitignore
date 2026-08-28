@@ -2,5 +2,6 @@
 *.bak
 *.bak.*
 
-# Local archive of the pre-Quattro configs (see backups/*/README.md)
+# Guard: keep any backup dir out of the repo. Archives live outside the
+# working tree, in ~/.local/state/config-backups/hypr/.
 backups/
