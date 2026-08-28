@@ -1,1 +1,6 @@
+# Timestamped backups written by omarchy refresh / manual edits
+*.bak
 *.bak.*
+
+# Local archive of the pre-Quattro configs (see backups/*/README.md)
+backups/
