@@ -10,3 +10,9 @@ hl.config({
     repeat_delay = 600,
   },
 })
+
+-- Razer Viper V2 Pro: tone down pointer speed (-1.0 .. 1.0, 0 = default)
+hl.device({
+  name = "razer-razer-viper-v2-pro-1",
+  sensitivity = -0.4,
+})

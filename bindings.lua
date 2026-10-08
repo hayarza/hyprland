@@ -19,9 +19,3 @@ o.bind("SUPER + SHIFT + T", "Activity", { tui = "btop" })
 -- "Toggle workspace layout" (omarchy-hyprland-workspace-layout-toggle).
 hl.unbind("SUPER + L")
 o.bind("SUPER + L", "Lockscreen", "omarchy-system-lock")
-
--- Workspace switching on CTRL+SHIFT+arrows, alongside Omarchy's SUPER+TAB.
-o.bind("CTRL + SHIFT + LEFT", "Previous workspace", hl.dsp.focus({ workspace = "e-1" }))
-o.bind("CTRL + SHIFT + RIGHT", "Next workspace", hl.dsp.focus({ workspace = "e+1" }))
-o.bind("CTRL + SHIFT + UP", "Previous workspace", hl.dsp.focus({ workspace = "e-1" }))
-o.bind("CTRL + SHIFT + DOWN", "Next workspace", hl.dsp.focus({ workspace = "e+1" }))
